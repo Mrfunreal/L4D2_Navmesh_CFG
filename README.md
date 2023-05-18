@@ -15,9 +15,13 @@ Each command has an explanation on what it does. You can also change the keybind
 bind home "exec L4D2_Navmesh_CFG-main/!NavPopulationEditToggle"  //Bind Home to population edit mode.
 bind pgup "exec L4D2_Navmesh_CFG-main/!Navmesh"                  //Bind PageUp to enable navmesh mode.
 bind pgdn "exec L4D2_Navmesh_CFG-main/!Navmesh_undo"             //Bind PageDown to disable navmesh mode.
+echo "Write new config using: host_writeconfig 	!navundo_defaultbinds.cfg"
 ```
-You can edit the keybinds if you want. I just happen to not use these keys for anything yet.
-
+You can edit the keybinds if you want. I just happen to not use these keys for anything yet.<br>
+  
+⚠️ **Warning:** !Navmesh.cfg writes a config file based on your current settings in order to not overwrite your keybinds. But this includes all settings like resolution, volume, FOV, ect.<br>
+    If you ever change your settings, you should run ``host_writeconfig !navundo_defaultbinds.cfg`` to make sure toggling navmesh edit mode won't revert your settings.
+  
 3. add ```exec !exec.cfg``` to your launch options.
 <img src="pictures/exec.jpg"/>
 </details>
