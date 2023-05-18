@@ -12,7 +12,7 @@ Each command has an explanation on what it does. You can also change the keybind
 1. Download and unpack this repo into ```steamapps\common\Left 4 Dead 2\left4dead2\cfg```.
 2. Create an autoexec file file called ```exec.cfg``` in ```steamapps\common\Left 4 Dead 2\left4dead2\cfg``` containing the following:<br>
 ```
-bind home "exec L4D2_Navmesh_CFG-main/!NavPopulationEditToggle"  //Bind Home (below scroll lock) to population edit mode.
+bind home "exec L4D2_Navmesh_CFG-main/!NavPopulationEditToggle"  //Bind Home to population edit mode.
 bind pgup "exec L4D2_Navmesh_CFG-main/!Navmesh"                  //Bind PageUp to enable navmesh mode.
 bind pgdn "exec L4D2_Navmesh_CFG-main/!Navmesh_undo"             //Bind PageDown to disable navmesh mode.
 ```
