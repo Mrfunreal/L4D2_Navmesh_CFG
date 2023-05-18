@@ -4,7 +4,7 @@ It contains a lot of keybinds for selecting navmesh, drawing navmesh, lowering i
 
 
 To use this set, you will first need to create an autoexec.cfg which will automatically load the cfg on game launch.
-
+- For this, add **+exec !exec.cfg** to your launch options.
 
 bind home "exec L4D2_Navmesh_CFG/!!NavPopulationEditOn"
 bind pgup "exec L4D2_Navmesh_CFG/!Navmesh"
